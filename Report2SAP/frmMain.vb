@@ -2,6 +2,9 @@
 
     Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+        txtClosingYear.Text = ClosingYear()
+
+
         txtDate.Text = RefreshDate()
         txtProfitCtr.Text = My.Settings.ProfitCenter
         txtText.Text = My.Settings.Text

@@ -6,9 +6,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{3AFFFABA-2994-43AD-9BA6-C2A6F78B2D92}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>PDI_Summary_2_SAP.My.MyApplication</StartupObject>
-    <RootNamespace>PDI_Summary_2_SAP</RootNamespace>
-    <AssemblyName>PDI Summary 2 SAP</AssemblyName>
+    <StartupObject>Report_2_SAP.My.MyApplication</StartupObject>
+    <RootNamespace>Report_2_SAP</RootNamespace>
+    <AssemblyName>Report 2 SAP</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
@@ -20,7 +20,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>PDI Summary 2 SAP.xml</DocumentationFile>
+    <DocumentationFile>Report 2 SAP.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -30,7 +30,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>PDI Summary 2 SAP.xml</DocumentationFile>
+    <DocumentationFile>Report 2 SAP.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -140,6 +140,7 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="client_secret.json" />
+    <None Include=".credential\sheets.googleapis.com.json\Google.Apis.Auth.OAuth2.Responses.TokenResponse-user" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
