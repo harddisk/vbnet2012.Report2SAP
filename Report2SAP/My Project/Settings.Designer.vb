@@ -96,11 +96,11 @@ Namespace My
      Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
      Global.System.Runtime.CompilerServices.CompilerGeneratedAttribute()>  _
     Friend Module MySettingsProperty
-        
-        <Global.System.ComponentModel.Design.HelpKeywordAttribute("My.Settings")>  _
-        Friend ReadOnly Property Settings() As Global.PDI_Summary_2_SAP.My.MySettings
+
+        <Global.System.ComponentModel.Design.HelpKeywordAttribute("My.Settings")>
+        Friend ReadOnly Property Settings() As Global.Report_2_SAP.My.MySettings
             Get
-                Return Global.PDI_Summary_2_SAP.My.MySettings.Default
+                Return Global.Report_2_SAP.My.MySettings.Default
             End Get
         End Property
     End Module
